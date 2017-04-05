@@ -20,6 +20,7 @@
 				else redirect("hub.php");
 			}
 		}
+		redirect("login.html"); // Login fallido
 	}
 
 	function redirect($url){
